@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /_vorschau/
+
+Sitemap: https://erzieher-lernpfad.de/sitemap.xml
