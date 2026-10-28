@@ -92,14 +92,18 @@
       </ul>
     </div>
     <div class="formular" id="lernplan-formular">
-      <!-- BREVO-FORMULAR HIER -->
-      <h3>Lernplan herunterladen</h3>
-      <p>Der kompakte Lernplan für 16 Wochen (3 Seiten, PDF) zum Ausdrucken und Abhaken.</p>
-      <!-- später nur über Brevo-Bestätigungsmail -->
-      <p style="margin-top:16px"><a class="btn gelb" href="pdf/lernplan-gratis.pdf" download>Lernplan herunterladen (PDF)</a></p>
-      <p id="warteliste" style="margin-top:22px"><b>Warteliste Prüfungspaket:</b> Du möchtest Bescheid bekommen, sobald das Prüfungspaket erhältlich ist? Schreib mir eine kurze E-Mail – dann melde ich mich, sobald es so weit ist.</p>
-      <p style="margin-top:12px"><a class="btn rand" href="mailto:kontakt@erzieher-lernpfad.de?subject=Warteliste%20Pr%C3%BCfungspaket&amp;body=Hallo%20Andreas%2C%0A%0Abitte%20gib%20mir%20Bescheid%2C%20sobald%20das%20Pr%C3%BCfungspaket%20zur%20Erzieherpr%C3%BCfung%20erh%C3%A4ltlich%20ist.%0A%0AViele%20Gr%C3%BC%C3%9Fe%0A">Auf die Warteliste – per E-Mail</a></p>
-      <small>Deine E-Mail-Adresse nutze ich nur, um dir zu antworten und dich über den Start des Prüfungspakets zu informieren. Mehr dazu in der <a href="datenschutz.html">Datenschutzerklärung</a>.</small>
+      <h3>Lernplan per E-Mail bekommen</h3>
+      <p>Der Lernplan für 16 Wochen (mit 12-Wochen-Variante, 3 Seiten PDF) zum Ausdrucken und Abhaken. Trag deine E-Mail-Adresse ein und bestätige sie – dann bekommst du ihn sofort.</p>
+      <form class="nl-form" method="POST" action="https://ce85b987.sibforms.com/serve/MUIFALvLU91YVIFAAQVtoptgZyAt4OJDZupEo-acL7FL1_UI1s20XebbGAtctbj8c_WSJmwFHOqDnkWBkBxKSuSSfQYVXKEgNb1MYcpYJ7D_fx7OXALkOvtBZ8xAaRx39rLGDZTrMe6KGgE7gnGg89TwPyJjZr0HgdtYNNt4-Ix7L1kdKc6y65lrC3EyEvZv-k-b4xzNhAo8MsZ2MA==">
+        <label for="nl-email">Deine E-Mail-Adresse</label>
+        <input type="email" id="nl-email" name="EMAIL" autocomplete="email" placeholder="name@beispiel.de" required>
+        <label class="nl-check"><input type="checkbox" name="OPT_IN" value="1" required> <span>Ja, ich möchte den Gratis-Lernplan und den Newsletter von Erzieher-Lernpfad mit Lerntipps, neuen Videos und gelegentlichen Hinweisen auf eigene Lernmaterialien (z.&nbsp;B. das Prüfungspaket) erhalten. Abmeldung jederzeit über den Link in jeder E-Mail.</span></label>
+        <input type="text" name="email_address_check" value="" class="nl-hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+        <input type="hidden" name="locale" value="de">
+        <input type="hidden" name="html_type" value="simple">
+        <button class="btn gelb" type="submit">Lernplan schicken</button>
+      </form>
+      <small>Versand über Brevo mit Bestätigungsmail (Double-Opt-in). Du bekommst auch Bescheid, sobald das Prüfungspaket erhältlich ist. Mehr dazu in der <a href="datenschutz.html">Datenschutzerklärung</a>.</small>
     </div>
   </div>
 </div></section>

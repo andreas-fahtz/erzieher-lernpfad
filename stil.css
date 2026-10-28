@@ -244,3 +244,13 @@ a.karte .mehr{display:inline-block;margin-top:12px;font-family:var(--label);font
 
 @media(max-width:420px){body{font-size:16.5px}.wrap{padding:0 16px}section{padding:50px 0}.karte{padding:20px}.box{padding:18px}.btns .btn{width:100%}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none !important}}
+
+/* Lernplan-Formular (Brevo) */
+.nl-form{display:flex;flex-direction:column;gap:10px;margin:16px 0 12px}
+.nl-form label{font-weight:700}
+.nl-form input[type=email]{font:inherit;font-size:17px;padding:12px 14px;border:2px solid #c9d3cf;border-radius:12px;background:#fff;color:#1f2a2e;width:100%;box-sizing:border-box}
+.nl-form input[type=email]:focus{outline:3px solid var(--gelb);outline-offset:1px;border-color:var(--petrol)}
+.nl-form .nl-check{display:flex;gap:10px;align-items:flex-start;font-weight:400;font-size:14px;line-height:1.45}
+.nl-form .nl-check input{width:20px;height:20px;margin-top:2px;flex:0 0 auto;accent-color:var(--petrol)}
+.nl-form .btn{align-self:flex-start}
+.nl-hp{position:absolute!important;left:-5000px!important;width:1px;height:1px;opacity:0}
